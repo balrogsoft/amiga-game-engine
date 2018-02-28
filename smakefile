@@ -1,0 +1,27 @@
+CC=sc
+CFLAGS=DEFINE=AOS3
+OBJS= FrameBuffer.o Bitmap.o GraphicContext.o Sprite.o Music.o InputDevice.o Engine.o
+
+all: Engine
+
+clean:
+   delete \#?.o \#?.lnk \#?.map \#?.gst ›Engine
+
+Engine: $(OBJS)
+	slink lib:c.o $(OBJS) c2p/c2p1x1_6_c5_bm.o lib lib:sc.lib to $@
+
+FrameBuffer.o: FrameBuffer.c
+                                  
+Bitmap.o: Bitmap.c 
+
+GraphicContext.o: GraphicContext.c
+
+Music.o: Music.c
+
+Joystick.o: Joystick.c
+
+Engine.o: Engine.c
+
+Sprite.o: Sprite.c
+
+InputDevice.o: InputDevice.c
