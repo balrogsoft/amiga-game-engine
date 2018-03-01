@@ -1,2 +1,3 @@
 *.o linguist-generated=true
 *.info linguist-generated=true
+*.lnk linguist-generated=true
