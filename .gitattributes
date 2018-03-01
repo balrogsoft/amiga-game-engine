@@ -5,3 +5,5 @@
 *.s linguist-generated=true
 *.stardust linguist-generated=true
 *.iff linguist-generated=true
+c2p/* linguist-generated=true
+Gfx/* linguist-generated=true
