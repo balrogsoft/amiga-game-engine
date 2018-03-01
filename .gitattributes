@@ -7,3 +7,9 @@
 *.iff linguist-generated=true
 c2p/* linguist-generated=true
 Gfx/* linguist-generated=true
+Debug linguist-generated=true
+Engine linguist-generated=true
+EngineC2P linguist-generated=true
+EngineScroller linguist-generated=true
+SCOPTIONS linguist-generated=true
+smakefile linguist-generated=true
