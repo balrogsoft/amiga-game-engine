@@ -3,3 +3,5 @@
 *.lnk linguist-generated=true
 *.pal linguist-generated=true
 *.s linguist-generated=true
+*.stardust linguist-generated=true
+*.iff linguist-generated=true
