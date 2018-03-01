@@ -1,4 +1,5 @@
 *.o linguist-generated=true
+*.h linguist-generated=true
 *.info linguist-generated=true
 *.lnk linguist-generated=true
 *.pal linguist-generated=true
